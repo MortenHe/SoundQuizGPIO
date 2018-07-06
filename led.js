@@ -22,7 +22,7 @@ ws.on('open', function open() {
         if (obj.type === "answer-state") {
 
             //Wenn die Antwort richtig war
-            if (value === true) {
+            if (obj.value === true) {
                 console.log("correct answer. Turn on green led");
 
                 //Gruene LED anschalten

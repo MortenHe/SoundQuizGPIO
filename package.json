@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs-extra": "^6.0.1",
     "onoff": "^3.0.2",
     "rc522": "^0.2.0",
     "ws": "^5.1.1"
