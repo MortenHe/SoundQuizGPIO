@@ -30,12 +30,12 @@ ws.on('open', function open() {
                 type: cardData.type,
                 value: cardData.value
             };
-            console.log("send card data: " + messageObj);
+            console.log("send card data: " + JSON.stringify(messageObj));
 
             //Nachricht an WSS schicken
             ws.send(JSON.stringify({
                 type: "send-card-data",
-                value: messageObj
+                value: JSON.stringify(messageObj)
             }));
         }
 

@@ -1,10 +1,10 @@
 {
     "1": {
-        "type": "game",
+        "type": "game-select",
         "value": "sounds"
     },
     "2": {
-        "type": "game",
+        "type": "game-select",
         "value": "people"
     },
     "3": {
