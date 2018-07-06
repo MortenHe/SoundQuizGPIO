@@ -1,0 +1,16 @@
+{
+  "name": "mh_prog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "onoff": "^3.0.2",
+    "rc522": "^0.2.0",
+    "ws": "^5.1.1"
+  }
+}

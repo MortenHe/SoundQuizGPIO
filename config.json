@@ -1,0 +1,34 @@
+{
+    "1": {
+        "type": "game",
+        "value": "sounds"
+    },
+    "2": {
+        "type": "game",
+        "value": "people"
+    },
+    "3": {
+        "type": "answer",
+        "value": "car"
+    },
+    "4": {
+        "type": "answer",
+        "value": "cat"
+    },
+    "5": {
+        "type": "answer",
+        "value": "dog"
+    },
+    "6": {
+        "type": "answer",
+        "value": "steffi"
+    },
+    "7": {
+        "type": "answer",
+        "value": "martin"
+    },
+    "8": {
+        "type": "answer",
+        "value": "luis"
+    }
+}
