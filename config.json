@@ -9,26 +9,107 @@
     },
     "04c0b3e2": {
         "type": "answer",
-        "value": "car"
+        "value": "car",
+        "games": [
+            "sounds"
+        ]
     },
     "60eb3f5d": {
         "type": "answer",
-        "value": "cat"
+        "value": "cat",
+        "games": [
+            "sounds"
+        ]
     },
     "30a816a4": {
         "type": "answer",
-        "value": "dog"
+        "value": "dog",
+        "games": [
+            "sounds"
+        ]
+    },
+    "1": {
+        "type": "answer",
+        "value": "horse",
+        "games": [
+            "sounds"
+        ]
+    },
+    "2": {
+        "type": "answer",
+        "value": "cow",
+        "games": [
+            "sounds"
+        ]
+    },
+    "3": {
+        "type": "answer",
+        "value": "donkey",
+        "games": [
+            "sounds"
+        ]
+    },
+    "4": {
+        "type": "answer",
+        "value": "duck",
+        "games": [
+            "sounds"
+        ]
+    },
+    "5": {
+        "type": "answer",
+        "value": "sheep",
+        "games": [
+            "sounds"
+        ]
+    },
+    "6": {
+        "type": "answer",
+        "value": "frog",
+        "games": [
+            "sounds"
+        ]
     },
     "e061345d": {
         "type": "answer",
-        "value": "steffi"
+        "value": "steffi",
+        "games": [
+            "people"
+        ]
     },
     "20ff3d5d": {
         "type": "answer",
-        "value": "martin"
+        "value": "martin",
+        "games": [
+            "people"
+        ]
     },
     "807e7ea4": {
         "type": "answer",
-        "value": "luis"
+        "value": "luis",
+        "games": [
+            "people"
+        ]
+    },
+    "9": {
+        "type": "answer",
+        "value": "laila",
+        "games": [
+            "people"
+        ]
+    },
+    "7": {
+        "type": "answer",
+        "value": "barbara",
+        "games": [
+            "people"
+        ]
+    },
+    "8": {
+        "type": "answer",
+        "value": "hwh",
+        "games": [
+            "people"
+        ]
     }
 }
