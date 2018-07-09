@@ -30,7 +30,7 @@ ws.on('open', function open() {
         };
 
         // write the key to stdout all normal like
-        console.log(key);
+        //console.log(key);
 
         //verschiedene Aktionen ausfuehren
         switch (key) {
@@ -70,6 +70,11 @@ ws.on('open', function open() {
 
             case "v":
                 messageObj.value = "luis";
+                break;
+
+            //Spiel beenden
+            case "w":
+                messageObj.type = "shutdown";
                 break;
         }
         console.log("send card data: " + JSON.stringify(messageObj));
