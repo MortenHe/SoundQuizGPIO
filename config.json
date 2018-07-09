@@ -118,5 +118,9 @@
         "games": [
             "people"
         ]
+    },
+    "18ad1689": {
+        "type": "shutdown",
+        "value": ""
     }
 }
