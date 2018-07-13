@@ -1,4 +1,8 @@
 {
+    "18ad1689": {
+        "type": "shutdown",
+        "value": ""
+    },
     "e020395d": {
         "type": "game-select",
         "value": "sounds"
@@ -70,6 +74,20 @@
             "sounds"
         ]
     },
+    "222": {
+        "type": "answer",
+        "value": "chicken",
+        "games": [
+            "sounds"
+        ]
+    },
+    "333": {
+        "type": "answer",
+        "value": "pig",
+        "games": [
+            "sounds"
+        ]
+    },
     "e061345d": {
         "type": "answer",
         "value": "steffi",
@@ -119,8 +137,11 @@
             "people"
         ]
     },
-    "18ad1689": {
-        "type": "shutdown",
-        "value": ""
+    "111": {
+        "type": "answer",
+        "value": "rolf",
+        "games": [
+            "people"
+        ]
     }
 }
