@@ -11,6 +11,10 @@
         "type": "game-select",
         "value": "people"
     },
+    "0000": {
+        "type": "joker",
+        "value": ""
+    },
     "04c0b3e2": {
         "type": "answer",
         "value": "car",
@@ -84,6 +88,20 @@
     "333": {
         "type": "answer",
         "value": "pig",
+        "games": [
+            "sounds"
+        ]
+    },
+    "444": {
+        "type": "answer",
+        "value": "elephant",
+        "games": [
+            "sounds"
+        ]
+    },
+    "5555": {
+        "type": "answer",
+        "value": "lion",
         "games": [
             "sounds"
         ]

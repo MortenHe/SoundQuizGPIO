@@ -74,6 +74,20 @@ ws.on('open', function open() {
             //Spiel beenden
             case "w":
                 messageObj.type = "shutdown";
+                messageObj.value = "";
+                console.log("send card data: " + JSON.stringify(messageObj));
+
+                //Nachricht an WSS schicken
+                ws.send(JSON.stringify({
+                    type: "send-card-data",
+                    value: JSON.stringify(messageObj)
+                }));
+                break;
+
+            //Joker senden
+            case "j":
+                messageObj.type = "joker";
+                messageObj.value = "";
                 console.log("send card data: " + JSON.stringify(messageObj));
 
                 //Nachricht an WSS schicken
