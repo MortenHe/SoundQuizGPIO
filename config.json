@@ -106,6 +106,20 @@
             "sounds"
         ]
     },
+    "6666": {
+        "type": "answer",
+        "value": "bird",
+        "games": [
+            "sounds"
+        ]
+    },
+    "7777": {
+        "type": "answer",
+        "value": "bear",
+        "games": [
+            "sounds"
+        ]
+    },
     "e061345d": {
         "type": "answer",
         "value": "steffi",
