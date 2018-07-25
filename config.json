@@ -120,6 +120,20 @@
             "sounds"
         ]
     },
+    "8888": {
+        "type": "answer",
+        "value": "monkey",
+        "games": [
+            "sounds"
+        ]
+    },
+    "9999": {
+        "type": "answer",
+        "value": "tractor",
+        "games": [
+            "sounds"
+        ]
+    },
     "e061345d": {
         "type": "answer",
         "value": "steffi",
