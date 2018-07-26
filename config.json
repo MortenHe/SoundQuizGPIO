@@ -11,11 +11,11 @@
         "type": "game-select",
         "value": "people"
     },
-    "0000": {
+    "10a0405d": {
         "type": "joker",
         "value": ""
     },
-    "00000": {
+    "40eb047d": {
         "type": "repeat",
         "value": ""
     },
@@ -117,13 +117,6 @@
             "sounds"
         ]
     },
-    "7777": {
-        "type": "answer",
-        "value": "bear",
-        "games": [
-            "sounds"
-        ]
-    },
     "8888": {
         "type": "answer",
         "value": "monkey",
@@ -134,6 +127,20 @@
     "9999": {
         "type": "answer",
         "value": "tractor",
+        "games": [
+            "sounds"
+        ]
+    },
+    "99999": {
+        "type": "answer",
+        "value": "bell",
+        "games": [
+            "sounds"
+        ]
+    },
+    "999999": {
+        "type": "answer",
+        "value": "train",
         "games": [
             "sounds"
         ]
