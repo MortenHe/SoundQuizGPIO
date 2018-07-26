@@ -15,6 +15,10 @@
         "type": "joker",
         "value": ""
     },
+    "00000": {
+        "type": "repeat",
+        "value": ""
+    },
     "04c0b3e2": {
         "type": "answer",
         "value": "car",

@@ -3,6 +3,9 @@ console.log("connect to WS Server");
 const WebSocket = require('ws');
 const ws = new WebSocket('ws://localhost:8080');
 
+//Farbiges Logging
+const colors = require('colors');
+
 //Input von Kommandozeile lesen
 var stdin = process.stdin;
 stdin.setRawMode(true);
@@ -87,6 +90,19 @@ ws.on('open', function open() {
             //Joker senden
             case "j":
                 messageObj.type = "joker";
+                messageObj.value = "";
+                console.log("send card data: " + JSON.stringify(messageObj));
+
+                //Nachricht an WSS schicken
+                ws.send(JSON.stringify({
+                    type: "send-card-data",
+                    value: JSON.stringify(messageObj)
+                }));
+                break;
+
+            //Repeat senden
+            case "r":
+                messageObj.type = "repeat";
                 messageObj.value = "";
                 console.log("send card data: " + JSON.stringify(messageObj));
 
