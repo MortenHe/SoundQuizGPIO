@@ -145,6 +145,20 @@
             "sounds"
         ]
     },
+    "9999999": {
+        "type": "answer",
+        "value": "mower",
+        "games": [
+            "sounds"
+        ]
+    },
+    "99999999": {
+        "type": "answer",
+        "value": "hammer",
+        "games": [
+            "sounds"
+        ]
+    },
     "e061345d": {
         "type": "answer",
         "value": "steffi",
