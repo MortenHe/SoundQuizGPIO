@@ -159,6 +159,13 @@
             "sounds"
         ]
     },
+    "999999999": {
+        "type": "answer",
+        "value": "rooster",
+        "games": [
+            "sounds"
+        ]
+    },
     "e061345d": {
         "type": "answer",
         "value": "steffi",
