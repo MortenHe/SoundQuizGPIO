@@ -19,7 +19,7 @@
         "type": "repeat",
         "value": ""
     },
-    "04c0b3e2": {
+    "044fd8e2905b80": {
         "type": "answer",
         "value": "car",
         "games": [
@@ -47,7 +47,7 @@
             "sounds"
         ]
     },
-    "1464a7ba": {
+    "0441d7e2905b80": {
         "type": "answer",
         "value": "cow",
         "games": [
@@ -124,14 +124,14 @@
             "sounds"
         ]
     },
-    "9999": {
+    "0455d8e2905b80": {
         "type": "answer",
         "value": "tractor",
         "games": [
             "sounds"
         ]
     },
-    "99999": {
+    "045bd8e2905b80": {
         "type": "answer",
         "value": "bell",
         "games": [
@@ -145,7 +145,7 @@
             "sounds"
         ]
     },
-    "9999999": {
+    "0464d9e2905b80": {
         "type": "answer",
         "value": "mower",
         "games": [
@@ -173,7 +173,7 @@
             "sounds"
         ]
     },
-    "99999999999": {
+    "043cd7e2905b80": {
         "type": "answer",
         "value": "crow",
         "games": [
@@ -208,7 +208,7 @@
             "people"
         ]
     },
-    "105ad85c": {
+    "0450d9e2905b80": {
         "type": "answer",
         "value": "laila",
         "games": [
