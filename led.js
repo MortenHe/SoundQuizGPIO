@@ -1,3 +1,4 @@
+//LED Lampen schalten, wenn Frage richtig / falsch beantwortet wurde
 //Mit WebsocketServer verbinden
 const WebSocket = require('ws');
 const ws = new WebSocket('ws://localhost:8080');

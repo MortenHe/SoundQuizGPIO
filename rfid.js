@@ -1,3 +1,4 @@
+//Anfragen per RFID an WSS schicken
 //Mit WebsocketServer verbinden
 console.log("connect to WS Server");
 const WebSocket = require('ws');

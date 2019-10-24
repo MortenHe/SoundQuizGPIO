@@ -1,3 +1,4 @@
+//Anfragen per Tastatur an WSS schicken (fuer Debug)
 //Mit WebsocketServer verbinden
 console.log("connect to WS Server");
 const WebSocket = require('ws');
