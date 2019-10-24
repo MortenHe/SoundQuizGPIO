@@ -2,12 +2,12 @@
 //Mit WebsocketServer verbinden
 console.log("connect to WS Server");
 const WebSocket = require('ws');
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket('ws://localhost:7070');
 
 //RFID-Config-Datei lesen
 console.log("read rfid config file");
 const fs = require('fs-extra');
-const configObj = fs.readJsonSync('./config.json');
+const configObj = fs.readJsonSync(__dirname + '/config_cards_rc522.json');
 
 //RFID Bibliothek laden
 var rc522 = require("rc522");

@@ -1,7 +1,7 @@
 //LED Lampen schalten, wenn Frage richtig / falsch beantwortet wurde
 //Mit WebsocketServer verbinden
 const WebSocket = require('ws');
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket('ws://localhost:7070');
 
 //GPIO Bibliothek laden
 const Gpio = require('onoff').Gpio;

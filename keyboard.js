@@ -2,7 +2,7 @@
 //Mit WebsocketServer verbinden
 console.log("connect to WS Server");
 const WebSocket = require('ws');
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket('ws://localhost:7070');
 
 //Farbiges Logging
 const colors = require('colors');
@@ -16,7 +16,7 @@ stdin.setEncoding('utf8');
 //Game-Config-JSON-Objekt aus Datei holen, um daraus passende Datenstruktur zu bauen
 const fs = require('fs-extra');
 console.log("read game config".green);
-const gameConfigJSON = fs.readJsonSync('config.json');
+const gameConfigJSON = fs.readJsonSync(__dirname + '/config_cards.json');
 
 //Antworten und Spiele sammeln
 var gameConfig = {};
