@@ -17,17 +17,17 @@ stdin.setEncoding('utf8');
 //Game-Config-JSON-Objekt aus Datei holen, um daraus passende Datenstruktur zu bauen
 const fs = require('fs-extra');
 console.log("read game config".green);
-const gameConfigJSON = fs.readJsonSync(__dirname + '/../WSRFID/config_cards.json');
+const gameConfigJSON = fs.readJsonSync(__dirname + '/../WSRFID/config_cards_7070.json');
 
 //Antworten und Spiele sammeln
 var gameConfig = {};
 var games = [];
 
 //Ueber Karten gehen
-for (let card in gameConfigJSON[port]) {
+for (let card in gameConfigJSON) {
 
     //Karteninfo laden
-    let cardInfo = gameConfigJSON[port][card];
+    let cardInfo = gameConfigJSON[card];
 
     //Wenn es eine Antwortkarte ist
     if (cardInfo["type"] === "answer") {
