@@ -85,7 +85,7 @@ ws.on('open', function open() {
                 //Nachricht an WSS schicken
                 ws.send(JSON.stringify({
                     type: "send-card-data",
-                    value: JSON.stringify(messageObj)
+                    value: messageObj
                 }));
                 break;
 
@@ -98,7 +98,7 @@ ws.on('open', function open() {
                 //Nachricht an WSS schicken
                 ws.send(JSON.stringify({
                     type: "send-card-data",
-                    value: JSON.stringify(messageObj)
+                    value: messageObj
                 }));
                 break;
 
@@ -111,7 +111,20 @@ ws.on('open', function open() {
                 //Nachricht an WSS schicken
                 ws.send(JSON.stringify({
                     type: "send-card-data",
-                    value: JSON.stringify(messageObj)
+                    value: messageObj
+                }));
+                break;
+
+            //Jingle abspielen
+            case "z":
+                messageObj.type = "jingle";
+                messageObj.value = "";
+                console.log("send card data: " + JSON.stringify(messageObj));
+
+                //Nachricht an WSS schicken
+                ws.send(JSON.stringify({
+                    type: "send-card-data",
+                    value: messageObj
                 }));
                 break;
 
@@ -155,7 +168,7 @@ ws.on('open', function open() {
                 //Nachricht an WSS schicken
                 ws.send(JSON.stringify({
                     type: "send-card-data",
-                    value: JSON.stringify(messageObj)
+                    value: messageObj
                 }));
                 break;
         }
